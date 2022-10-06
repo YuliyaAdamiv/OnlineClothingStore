@@ -236,3 +236,67 @@ header {
 .sofia::before {
   content: url(../img/Avatar8.png);
 }
+.page-link {
+  border-radius: 50%;
+  color: #5c5f60;
+  font-weight: 500;
+  font-size: 10px;
+  line-height: 150%;
+}
+.page-link-next {
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 150%;
+  color: #5c5f60;
+  text-decoration: none;
+  padding: 7px 13px;
+  border: 1px solid #5c5f60;
+  border-radius: 50px;
+}
+.active {
+  border-bottom: none;
+  padding: 0;
+  border: 2px solid #2d3132;
+  border-radius: 100%;
+}
+.active > .page-link {
+  background: #fff;
+  color: #5c5f60;
+  border-color: #fff;
+}
+.page-item {
+  margin-right: 8px;
+}
+.pagination {
+  margin: 56px 0 112px;
+}
+aside .btn {
+  width: 312px;
+}
+aside {
+  margin-right: 24px;
+}
+.footer-top {
+  padding: 72px 0px;
+  border-bottom: 1px solid #c4c7c7;
+}
+.p-5 {
+  padding: 5em !important;
+  padding-left: 0px !important;
+  padding-right: 0px !important;
+}
+footer {
+  background: #eff1f1;
+}
+.footer-item {
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 150%;
+  color: #2d3132;
+}
+a {
+  text-decoration: none;
+}
+.empty {
+  width: 312px;
+}
