@@ -1,0 +1,507 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi" crossorigin="anonymous">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="css/styles.css">
+    <title>Online Clothing Store
+    </title>
+</head>
+
+<body>
+    <section class="top-section">
+        <div class="container-sm container-md container-lg container-xl container-xxl container-fluid">
+            <div class="top d-flex align-items-flex-start justify-content-center">
+                <img class="top-icon" src="img/like.png" alt="like" />
+                <img class="top-icon" src="img/icon-dress.png" alt="dress" />
+                <p class="top-header">Брендовий верхній одяг від 899 грн</p>
+            </div>
+        </div>
+    </section>
+    <section>
+        <div class="navbar navbar-expand-lg">
+            <div class="nav container-sm container-md container-lg container-xl container-xxl container-fluid">
+                <a class="navbar-brand col-2 " href="#"><img class="logo" src="img/logo.svg" alt="logo" /></a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                    data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
+                    aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse justify-content-between" id="navbarSupportedContent">
+                    <form class="d-flex col-9 col-lg-7" role="search">
+                        <div class="input-group">
+                            <span class="input-group-text"><i class="fa-solid fa-search mx-2"></i></span>
+                            <input class="form-control me-2" type="search" placeholder=" Знайти речі або бренди"
+                                aria-label="Search">
+                        </div>
+                        <button class="btn btn-dark" type="submit">Додати товар</button>
+                    </form>
+                    <ul class="navbar-nav col-5 me-0  mb-lg-0 justify-content-start align-items-baseline">
+                        <li class="nav-item dropdown">
+                            <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"
+                                aria-expanded="false">
+                                Укр
+                            </a>
+                            <ul class="dropdown-menu">
+                                <li><a class="dropdown-item" href="#">Англ.</a></li>
+                                <li><a class="dropdown-item" href="#">Нім.</a></li>
+                                <li>
+                                    <hr class="dropdown-divider">
+                                </li>
+                                <li><a class="dropdown-item" href="#">Франц.</a></li>
+                            </ul>
+                        </li>
+                        <li class="nav-item heart">
+                            <a class="nav-link " aria-current="page" href="#"><svg xmlns="http://www.w3.org/2000/svg"
+                                    width="16" height="16" fill="currentColor" class="bi bi-heart" viewBox="0 0 16 16">
+                                    <path
+                                        d="m8 2.748-.717-.737C5.6.281 2.514.878 1.4 3.053c-.523 1.023-.641 2.5.314 4.385.92 1.815 2.834 3.989 6.286 6.357 3.452-2.368 5.365-4.542 6.286-6.357.955-1.886.838-3.362.314-4.385C13.486.878 10.4.28 8.717 2.01L8 2.748zM8 15C-7.333 4.868 3.279-3.04 7.824 1.143c.06.055.119.112.176.171a3.12 3.12 0 0 1 .176-.17C12.72-3.042 23.333 4.867 8 15z" />
+                                </svg></a>
+                        </li>
+                        <li class="nav-item comment ">
+                            <a class="nav-link " href="#"><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16"
+                                    fill="currentColor" class="bi bi-chat-right-text" viewBox="0 0 16 16">
+                                    <path
+                                        d="M2 1a1 1 0 0 0-1 1v8a1 1 0 0 0 1 1h9.586a2 2 0 0 1 1.414.586l2 2V2a1 1 0 0 0-1-1H2zm12-1a2 2 0 0 1 2 2v12.793a.5.5 0 0 1-.854.353l-2.853-2.853a1 1 0 0 0-.707-.293H2a2 2 0 0 1-2-2V2a2 2 0 0 1 2-2h12z" />
+                                    <path
+                                        d="M3 3.5a.5.5 0 0 1 .5-.5h9a.5.5 0 0 1 0 1h-9a.5.5 0 0 1-.5-.5zM3 6a.5.5 0 0 1 .5-.5h9a.5.5 0 0 1 0 1h-9A.5.5 0 0 1 3 6zm0 2.5a.5.5 0 0 1 .5-.5h5a.5.5 0 0 1 0 1h-5a.5.5 0 0 1-.5-.5z" />
+                                </svg></a>
+                        </li>
+                        <li class="nav-item cart">
+                            <a class="nav-link "><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16"
+                                    fill="currentColor" class="bi bi-cart2" viewBox="0 0 16 16">
+                                    <path
+                                        d="M0 2.5A.5.5 0 0 1 .5 2H2a.5.5 0 0 1 .485.379L2.89 4H14.5a.5.5 0 0 1 .485.621l-1.5 6A.5.5 0 0 1 13 11H4a.5.5 0 0 1-.485-.379L1.61 3H.5a.5.5 0 0 1-.5-.5zM3.14 5l1.25 5h8.22l1.25-5H3.14zM5 13a1 1 0 1 0 0 2 1 1 0 0 0 0-2zm-2 1a2 2 0 1 1 4 0 2 2 0 0 1-4 0zm9-1a1 1 0 1 0 0 2 1 1 0 0 0 0-2zm-2 1a2 2 0 1 1 4 0 2 2 0 0 1-4 0z" />
+                                </svg></a>
+                        </li>
+                        <li class="nav-item dropdown">
+                            <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"
+                                aria-expanded="false">
+                                <img class="avatar" src="img/avatar.png" alt="Avatar" />
+                            </a>
+                            <ul class="dropdown-menu">
+                                <li><a class="dropdown-item" href="#"><img src="img/avatar.png" alt="Avatar" /></a></li>
+                                <li><a class="dropdown-item" href="#"><img src="img/avatar.png" alt="Avatar" /></a></li>
+                                <li>
+                                    <hr class="dropdown-divider">
+                                </li>
+                                <li><a class="dropdown-item" href="#"><img src="img/avatar.png" alt="Avatar" /></a></li>
+                            </ul>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </section>
+    <header>
+        <nav class="navbar navbar-expand-lg">
+            <div class="container-fluid container-sm container-md container-lg container-xl container-xxl ">
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                    data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false"
+                    aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+                    <div class="navbar-nav">
+                        <a class="nav-link " aria-current="page" href="#">Головна</a>
+                        <a class="nav-link active" href="#">Каталог</a>
+                        <a class="nav-link" href="#">Жінкам</a>
+                        <a class="nav-link">Чоловікам</a>
+                        <a class="nav-link" href="#">Дитячі речі</a>
+                        <a class="nav-link" href="#">Аукціон</a>
+                        <a class="nav-link">Бренди</a>
+                        <a class="nav-link" href="#">Акції</a>
+                        <a class="nav-link" href="#">Аутентифікація</a>
+                        <a class="nav-link">Блог</a>
+                    </div>
+                </div>
+            </div>
+        </nav>
+    </header>
+    <main>
+        <div class="container-fluid container-sm container-md container-lg container-xl container-xxl ">
+            <div class="row">
+                <p><span class="breadcrumbs-main">Головна</span><span class="breadcrumbs-category"> / Каталог
+                        одягу</span></p>
+
+            </div>
+            <div>
+                <p class="main-name">Каталог одягу</p>
+            </div>
+            <div class="d-flex justify-content-between ">
+                <p class="filters">Фільтри</p>
+                <div class="d-flex align-items-baseline">
+                    <div>
+                        <p class="sort">Сортувати за:</p>
+                    </div>
+                    <div class="dropdown">
+                        <button class="btn btn-default dropdown-toggle" type="button" data-bs-toggle="dropdown"
+                            aria-expanded="false">
+                            За замовчуванням
+                        </button>
+                        <ul class="dropdown-menu">
+                            <li><button class="dropdown-item" type="button">Action</button></li>
+                            <li><button class="dropdown-item" type="button">Another action</button></li>
+                            <li><button class="dropdown-item" type="button">Something else here</button></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <section>
+            <div class="container-fluid container-sm container-md container-lg container-xl container-xxl ">
+                <div class="row row-cols-1 row-cols-md-3 g-4">
+                    <div class="col">
+                        <div class="card">
+                            <img class="card-icon-heart" src="img/icons/Union.png" />
+                            <img class="card-img  mx-auto d-block" src="img/card-1.png" class="card-img-top" alt="card">
+
+                            <div class="card-body">
+                                <img class="top-icon" src="img/Seller.png" alt="seller" />
+                                <div>
+                                    <span class="brand">LOUIS VUITTON</span>
+                                </div>
+                                <div class="name-item">
+                                    <span class="card-title">Темно-сині джинси Louis Vuitton</span>
+                                </div>
+                                <div class="d-flex justify-content-between align-items-baseline">
+                                    <div>
+                                        <span class="old-price">5 499 </span>
+                                    </div>
+                                    <div>
+                                        <svg xmlns="http://www.w3.org/2000/svg" width="10" height="10"
+                                            fill="currentColor" class="bi bi-geo-alt-fill" viewBox="0 0 16 16">
+                                            <path
+                                                d="M8 16s6-5.686 6-10A6 6 0 0 0 2 6c0 4.314 6 10 6 10zm0-7a3 3 0 1 1 0-6 3 3 0 0 1 0 6z" />
+                                        </svg>
+                                        <span class="location">Херсон</span>
+                                    </div>
+                                </div>
+                                <div class="d-flex justify-content-between align-items-baseline">
+                                    <div>
+                                        <span class="new-price">3 799 </span>
+                                    </div>
+                                    <div class="d-flex align-items-baseline">
+                                        <span class="author">LoveBrand</span>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col">
+                        <div class="card">
+                            <img class="card-icon-heart" src="img/icons/Union.png" />
+                            <img class="card-img  mx-auto d-block" src="img/card-2.png" class="card-img-top" alt="card">
+
+                            <div class="card-body">
+                                <img class="top-icon" src="img/Seller.png" alt="seller" />
+                                <div>
+                                    <span class="brand">THOM BROWNE</span>
+                                </div>
+                                <div class="name-item">
+                                    <span class="card-title">Чорний піджак Thom Browne</span>
+                                </div>
+                                <div class="d-flex justify-content-between align-items-baseline">
+                                    <div>
+                                        <span class="old-price">11 999 </span>
+                                    </div>
+                                    <div>
+                                        <svg xmlns="http://www.w3.org/2000/svg" width="10" height="10"
+                                            fill="currentColor" class="bi bi-geo-alt-fill" viewBox="0 0 16 16">
+                                            <path
+                                                d="M8 16s6-5.686 6-10A6 6 0 0 0 2 6c0 4.314 6 10 6 10zm0-7a3 3 0 1 1 0-6 3 3 0 0 1 0 6z" />
+                                        </svg>
+                                        <span class="location">Хмельницький</span>
+                                    </div>
+                                </div>
+                                <div class="d-flex justify-content-between align-items-baseline">
+                                    <div>
+                                        <span class="new-price">8 599 </span>
+                                    </div>
+                                    <div class="d-flex align-items-baseline">
+                                        <span class="author sell_for_men">Sell_For_Men</span>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col">
+                        <div class="card">
+                            <img class="card-icon-heart" src="img/icons/Union.png" />
+                            <img class="card-img  mx-auto d-block" src="img/card-3.png" class="card-img-top" alt="card">
+
+                            <div class="card-body">
+                                <img class="top-icon invisible" src="img/Seller.png" alt="seller" />
+                                <div>
+                                    <span class="brand">CANALI</span>
+                                </div>
+                                <div class="name-item">
+                                    <span class="card-title">Вовняний піджак Canali</span>
+                                </div>
+                                <div class="d-flex justify-content-between align-items-baseline">
+                                    <div>
+                                        <span class="old-price">4 999 </span>
+                                    </div>
+                                    <div>
+                                        <svg xmlns="http://www.w3.org/2000/svg" width="10" height="10"
+                                            fill="currentColor" class="bi bi-geo-alt-fill" viewBox="0 0 16 16">
+                                            <path
+                                                d="M8 16s6-5.686 6-10A6 6 0 0 0 2 6c0 4.314 6 10 6 10zm0-7a3 3 0 1 1 0-6 3 3 0 0 1 0 6z" />
+                                        </svg>
+                                        <span class="location">Хмельницький</span>
+                                    </div>
+                                </div>
+                                <div class="d-flex justify-content-between align-items-baseline">
+                                    <div>
+                                        <span class="new-price">2 599 </span>
+                                    </div>
+                                    <div class="d-flex align-items-baseline">
+                                        <span class="author sell_for_men">Sell_For_Men</span>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col">
+                        <div class="card">
+                            <img class="card-icon-heart" src="img/icons/Union.png" />
+                            <img class="card-img  mx-auto d-block" src="img/card-4.png" class="card-img-top" alt="card">
+
+                            <div class="card-body">
+                                <img class="top-icon invisible" src="img/Seller.png" alt="seller" />
+                                <div>
+                                    <span class="brand">LOUIS VUITTON</span>
+                                </div>
+                                <div class="name-item">
+                                    <span class="card-title">Клатч Louis Vuitton Limelight</span>
+                                </div>
+                                <div class="d-flex justify-content-between align-items-baseline">
+                                    <div>
+                                        <span class="old-price">4 999 </span>
+                                    </div>
+                                    <div>
+                                        <svg xmlns="http://www.w3.org/2000/svg" width="10" height="10"
+                                            fill="currentColor" class="bi bi-geo-alt-fill" viewBox="0 0 16 16">
+                                            <path
+                                                d="M8 16s6-5.686 6-10A6 6 0 0 0 2 6c0 4.314 6 10 6 10zm0-7a3 3 0 1 1 0-6 3 3 0 0 1 0 6z" />
+                                        </svg>
+                                        <span class="location">Дніпро</span>
+                                    </div>
+                                </div>
+                                <div class="d-flex justify-content-between align-items-baseline">
+                                    <div>
+                                        <span class="new-price">3 499 </span>
+                                    </div>
+                                    <div class="d-flex align-items-baseline">
+                                        <span class="author brandear">Brandear</span>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col">
+                        <div class="card">
+                            <img class="organic" src="img/org.png" alt="organic" />
+                            <img class="card-icon-heart" src="img/icons/Union.png" />
+                            <img class="card-img  mx-auto d-block" src="img/card-5.png" class="card-img-top" alt="card">
+
+                            <div class="card-body">
+                                <img class="top-icon invisible" src="img/Seller.png" alt="seller" />
+                                <div>
+                                    <span class="brand">ELENA GHISELINI</span>
+                                </div>
+                                <div class="name-item">
+                                    <span class="card-title">Сумка з декором Elena Ghisellini</span>
+                                </div>
+                                <div class="d-flex justify-content-between align-items-baseline">
+                                    <div>
+                                        <span class="old-price">1 999 </span>
+                                    </div>
+                                    <div>
+                                        <svg xmlns="http://www.w3.org/2000/svg" width="10" height="10"
+                                            fill="currentColor" class="bi bi-geo-alt-fill" viewBox="0 0 16 16">
+                                            <path
+                                                d="M8 16s6-5.686 6-10A6 6 0 0 0 2 6c0 4.314 6 10 6 10zm0-7a3 3 0 1 1 0-6 3 3 0 0 1 0 6z" />
+                                        </svg>
+                                        <span class="location">Дніпро</span>
+                                    </div>
+                                </div>
+                                <div class="d-flex justify-content-between align-items-baseline">
+                                    <div>
+                                        <span class="new-price">1 599 </span>
+                                    </div>
+                                    <div class="d-flex align-items-baseline">
+                                        <span class="author brandear">Brandear</span>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col">
+                        <div class="card">
+                            <img class="card-icon-heart" src="img/icons/Union.png" />
+                            <img class="card-img  mx-auto d-block" src="img/card-6.png" class="card-img-top" alt="card">
+
+                            <div class="card-body">
+                                <img class="top-icon invisible" src="img/Seller.png" alt="seller" />
+                                <div>
+                                    <span class="brand">ACNE</span>
+                                </div>
+                                <div class="name-item">
+                                    <span class="card-title">Бомбер Acne на блискавці</span>
+                                </div>
+                                <div class="d-flex justify-content-between align-items-baseline">
+                                    <div>
+                                        <span class="old-price">5 999 </span>
+                                    </div>
+                                    <div>
+                                        <svg xmlns="http://www.w3.org/2000/svg" width="10" height="10"
+                                            fill="currentColor" class="bi bi-geo-alt-fill" viewBox="0 0 16 16">
+                                            <path
+                                                d="M8 16s6-5.686 6-10A6 6 0 0 0 2 6c0 4.314 6 10 6 10zm0-7a3 3 0 1 1 0-6 3 3 0 0 1 0 6z" />
+                                        </svg>
+                                        <span class="location">Київ</span>
+                                    </div>
+                                </div>
+                                <div class="d-flex justify-content-between align-items-baseline">
+                                    <div>
+                                        <span class="new-price">4 199 </span>
+                                    </div>
+                                    <div class="d-flex align-items-baseline">
+                                        <span class="author alex">Alexalex</span>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col">
+                        <div class="card">
+                            <img class="card-icon-heart" src="img/icons/Union.png" />
+                            <img class="card-img  mx-auto d-block" src="img/card-7.png" class="card-img-top" alt="card">
+
+                            <div class="card-body">
+                                <img class="top-icon invisible" src="img/Seller.png" alt="seller" />
+                                <div>
+                                    <span class="brand">GUCCI</span>
+                                </div>
+                                <div class="name-item">
+                                    <span class="card-title">Довга сукня Gucci</span>
+                                </div>
+                                <div class="d-flex justify-content-between align-items-baseline">
+                                    <div>
+                                        <span class="old-price">11 999 </span>
+                                    </div>
+                                    <div>
+                                        <svg xmlns="http://www.w3.org/2000/svg" width="10" height="10"
+                                            fill="currentColor" class="bi bi-geo-alt-fill" viewBox="0 0 16 16">
+                                            <path
+                                                d="M8 16s6-5.686 6-10A6 6 0 0 0 2 6c0 4.314 6 10 6 10zm0-7a3 3 0 1 1 0-6 3 3 0 0 1 0 6z" />
+                                        </svg>
+                                        <span class="location">Рівне</span>
+                                    </div>
+                                </div>
+                                <div class="d-flex justify-content-between align-items-baseline">
+                                    <div>
+                                        <span class="new-price">8 599 </span>
+                                    </div>
+                                    <div class="d-flex align-items-baseline">
+                                        <span class="author sellbuy">SellBuy</span>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col">
+                        <div class="card">
+                            <img class="card-icon-heart" src="img/icons/Union.png" />
+                            <img class="card-img  mx-auto d-block" src="img/card-8.png" class="card-img-top" alt="card">
+
+                            <div class="card-body">
+                                <img class="top-icon invisible" src="img/Seller.png" alt="seller" />
+                                <div>
+                                    <span class="brand">LOUIS VUITTON</span>
+                                </div>
+                                <div class="name-item">
+                                    <span class="card-title">Темно-сині джинси Louis Vuitton</span>
+                                </div>
+                                <div class="d-flex justify-content-between align-items-baseline">
+                                    <div>
+                                        <span class="old-price">1 999 </span>
+                                    </div>
+                                    <div>
+                                        <svg xmlns="http://www.w3.org/2000/svg" width="10" height="10"
+                                            fill="currentColor" class="bi bi-geo-alt-fill" viewBox="0 0 16 16">
+                                            <path
+                                                d="M8 16s6-5.686 6-10A6 6 0 0 0 2 6c0 4.314 6 10 6 10zm0-7a3 3 0 1 1 0-6 3 3 0 0 1 0 6z" />
+                                        </svg>
+                                        <span class="location">Кропивницький</span>
+                                    </div>
+                                </div>
+                                <div class="d-flex justify-content-between align-items-baseline">
+                                    <div>
+                                        <span class="new-price">1 599 </span>
+                                    </div>
+                                    <div class="d-flex align-items-baseline">
+                                        <span class="author sofia">Deeva_Sofia</span>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col">
+                        <div class="card">
+                            <img class="card-icon-heart" src="img/icons/Union.png" />
+                            <img class="card-img  mx-auto d-block" src="img/card-9.png" class="card-img-top" alt="card">
+
+                            <div class="card-body">
+                                <img class="top-icon invisible" src="img/Seller.png" alt="seller" />
+                                <div>
+                                    <span class="brand">HACHE</span>
+                                </div>
+                                <div class="name-item">
+                                    <span class="card-title">Салатове пальто Hache</span>
+                                </div>
+                                <div class="d-flex justify-content-between align-items-baseline">
+                                    <div>
+                                        <span class="old-price">5 999 </span>
+                                    </div>
+                                    <div>
+                                        <svg xmlns="http://www.w3.org/2000/svg" width="10" height="10"
+                                            fill="currentColor" class="bi bi-geo-alt-fill" viewBox="0 0 16 16">
+                                            <path
+                                                d="M8 16s6-5.686 6-10A6 6 0 0 0 2 6c0 4.314 6 10 6 10zm0-7a3 3 0 1 1 0-6 3 3 0 0 1 0 6z" />
+                                        </svg>
+                                        <span class="location">Київ</span>
+                                    </div>
+                                </div>
+                                <div class="d-flex justify-content-between align-items-baseline">
+                                    <div>
+                                        <span class="new-price">4 199 </span>
+                                    </div>
+                                    <div class="d-flex align-items-baseline">
+                                        <span class="author">LoveBrand</span>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <aside>
+
+        </aside>
+
+    </main>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-OERcA2EqjJCMA+/3y+gxIOqMEjwtxJY7qPCqsdltbNJuaOe923+mo//f6V8Qbsw3"
+        crossorigin="anonymous"></script>
+</body>
+
+</html>

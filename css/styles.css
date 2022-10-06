@@ -1,0 +1,238 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+@font-face {
+  font-family: 'Stolzl';
+  src: url(../css/Stolzl/stolzl_bold.otf) format('opentype');
+}
+@font-face {
+  font-family: 'Stolzl';
+  src: url(../css/Stolzl/stolzl_regular.otf) format('opentype');
+}
+@font-face {
+  font-family: 'Stolzl';
+  src: url(../css/Stolzl/stolzl_medium.otf) format('opentype');
+}
+
+body {
+  font-family: 'Stolzl';
+  color: #2d3132;
+}
+.top-section {
+  background-color: #cbdcff;
+}
+.top {
+  padding: 10px 0;
+}
+.top-header {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 150%;
+  color: #0f1a34;
+  margin-bottom: 0;
+}
+.top-icon {
+  width: 24px;
+  height: 24px;
+}
+.input-group-text {
+  background-color: #fff;
+  border: none;
+  border-bottom: 1.6px solid #e0e3e3;
+  border-top: 1.6px solid #e0e3e3;
+  border-left: 1.6px solid #e0e3e3;
+  border-radius: 4px;
+}
+.input-group {
+  max-width: 700px;
+  width: 60vw;
+}
+.form-control {
+  border: none;
+  border-bottom: 1.6px solid #e0e3e3;
+  border-top: 1.6px solid #e0e3e3;
+  border-right: 1.6px solid #e0e3e3;
+  padding: 5px 0;
+  border-radius: 4px;
+}
+.btn-dark {
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 150%;
+  width: 31%;
+  padding: 10px 20px;
+}
+.navbar {
+  padding: 10px;
+}
+ul {
+  position: relative;
+}
+.heart::after {
+  content: url(../img/heart-8.png);
+  position: absolute;
+  top: 0px;
+  left: 65px;
+}
+.comment::after {
+  content: url(../img/coment-3.png);
+  position: absolute;
+  top: 0px;
+  left: 98px;
+}
+.cart::after {
+  content: url(../img/cart-3.png);
+  position: absolute;
+  top: 0px;
+  left: 128px;
+}
+.avatar {
+  width: 22px;
+  height: 22px;
+}
+.nav {
+  border-bottom: 1px solid #e0e3e3;
+}
+.nav-link {
+  font-family: 'Stolzl';
+  font-weight: 500;
+  font-size: 13px;
+  line-height: 150%;
+  text-align: center;
+  letter-spacing: 0.4px;
+  text-transform: uppercase;
+  color: #444748;
+}
+.active {
+  border-bottom: 1px solid #444748;
+  padding-bottom: 10px;
+}
+header {
+  border-bottom: 1px solid #e0e3e3;
+}
+.breadcrumbs-main {
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 150%;
+  color: #2d3132;
+}
+.breadcrumbs-category {
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 150%;
+  color: #747778;
+}
+.row p {
+  margin: 40px 0;
+}
+.main-name {
+  font-weight: 400;
+  font-size: 28px;
+  line-height: 150%;
+  color: #2d3132;
+}
+.filters {
+  font-weight: 300;
+  font-size: 22px;
+  line-height: 150%;
+  color: #5c5f60;
+}
+.sort {
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 150%;
+  color: #5c5f60;
+  margin-right: 12px;
+}
+.btn-default {
+  background-color: #eff1f1;
+  border-radius: 100px;
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 150%;
+  color: #2d3132;
+}
+.card-img {
+  width: 50%;
+  height: 50%;
+  margin: 21px 28px 0px;
+}
+.card {
+  position: relative;
+  padding: 24px;
+}
+.card-icon-heart {
+  width: 20px;
+  height: 16px;
+  position: absolute;
+  top: 24px;
+  right: 24px;
+}
+.top-icon {
+  width: 38px;
+  height: 23px;
+}
+.brand {
+  font-weight: 500;
+  font-size: 10px;
+  line-height: 150%;
+  color: #5c5f60;
+  padding: 16px 0 4px;
+}
+.card-title {
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 150%;
+  color: #2d3132;
+}
+.name-item {
+  margin-bottom: 24px;
+}
+.old-price {
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 150%;
+  text-decoration-line: line-through;
+  color: #747778;
+}
+.location {
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 150%;
+  color: #2d3132;
+}
+.author::before {
+  content: url(../img/Avatar1.png);
+}
+.author::before,
+.sell_for_men::before,
+.brandear::before,
+.alex::before,
+.sellbuy::before,
+.sofia:before {
+  width: 10px;
+  height: 10px;
+  margin-right: 8px;
+}
+.sell_for_men::before {
+  content: url(../img/Avatar2.png);
+}
+.brandear::before {
+  content: url(../img/avatar.png);
+}
+.organic {
+  width: 56px;
+  height: 23px;
+  position: absolute;
+}
+.alex::before {
+  content: url(../img/Avatar6.png);
+}
+.sellbuy::before {
+  content: url(../img/avatar7.png);
+}
+.sofia::before {
+  content: url(../img/Avatar8.png);
+}
