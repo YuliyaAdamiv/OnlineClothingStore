@@ -16,7 +16,7 @@
 
 <body>
     <section class="top-section">
-        <div class="container-sm container-md container-lg container-xl container-xxl container-fluid">
+        <div class="container-fluid  ">
             <div class="top d-flex align-items-flex-start justify-content-center">
                 <img class="top-icon" src="img/like.png" alt="like" />
                 <img class="top-icon" src="img/icon-dress.png" alt="dress" />
@@ -24,17 +24,19 @@
             </div>
         </div>
     </section>
-    <section>
-        <div class="navbar navbar-expand-lg">
-            <div class="nav container-sm container-md container-lg container-xl container-xxl container-fluid">
+    <section class="middle-section">
+        <div class="navbar navbar-expand-lg justify-content-between align-items-baseline">
+            <div
+                class="nav container-sm container-md container-lg container-xl container-xxl container-fluid align-items-baseline">
                 <a class="navbar-brand col-2 " href="#"><img class="logo" src="img/logo.svg" alt="logo" /></a>
                 <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
                     data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
                     aria-expanded="false" aria-label="Toggle navigation">
                     <span class="navbar-toggler-icon"></span>
                 </button>
-                <div class="collapse navbar-collapse justify-content-between" id="navbarSupportedContent">
-                    <form class="d-flex col-9 col-lg-7" role="search">
+                <div class="collapse navbar-collapse justify-content-between align-items-baseline"
+                    id="navbarSupportedContent">
+                    <form class="d-flex col-9 col-lg-7 search" role="search">
                         <div class="input-group">
                             <span class="input-group-text"><i class="fa-solid fa-search mx-2"></i></span>
                             <input class="form-control me-2" type="search" placeholder=" Знайти речі або бренди"
@@ -108,7 +110,7 @@
                     <span class="navbar-toggler-icon"></span>
                 </button>
                 <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
-                    <div class="navbar-nav">
+                    <div class="navbar-nav nav-pills">
                         <a class="nav-link " aria-current="page" href="#">Головна</a>
                         <a class="nav-link active" href="#">Каталог</a>
                         <a class="nav-link" href="#">Жінкам</a>
@@ -157,157 +159,264 @@
         <div class="container-fluid container-sm container-md container-lg container-xl container-xxl ">
             <section class="d-flex">
                 <aside>
-                    <div class="dropdown">
-                        <button class="btn btn-secondary dropdown-toggle" type="button" id="dropdownMenuButton10"
-                            data-bs-toggle="dropdown" aria-expanded="false">
-                            Dropdown button
-                        </button>
-                        <ul class="dropdown-menu dropdown-menu-dark" aria-labelledby="dropdownMenuButton10">
-                            <li><a class="dropdown-item active" href="#">Action</a></li>
-                            <li><a class="dropdown-item" href="#">Another action</a></li>
-                            <li><a class="dropdown-item" href="#">Something else here</a></li>
-                            <li>
-                                <hr class="dropdown-divider">
-                            </li>
-                            <li><a class="dropdown-item" href="#">Separated link</a></li>
-                        </ul>
-                    </div>
-                    <div class="dropdown open" style="position: initial; ">
-                        <button class="btn btn-secondary dropdown-toggle" type="button" id="dropdownMenuButton1"
-                            data-bs-toggle="dropdown" style="margin-bottom: 160px;" aria-expanded="false">
-                            Dropdown button
-                        </button>
-                        <ul class="dropdown-menu dropdown-menu-dark show" aria-labelledby="dropdownMenuButton1"
-                            style="width: 312px; margin-top:-160px">
-                            <li><a class="dropdown-item active" href="#">Action</a></li>
-                            <li><a class="dropdown-item" href="#">Another action</a></li>
-                            <li><a class="dropdown-item" href="#">Something else here</a></li>
-                            <li>
-                                <hr class="dropdown-divider">
-                            </li>
-                            <li><a class="dropdown-item" href="#">Separated link</a></li>
-                        </ul>
-                    </div>
-                    <div class="dropdown">
-                        <button class="btn btn-secondary dropdown-toggle" type="button" id="dropdownMenuButton2"
-                            data-bs-toggle="dropdown" aria-expanded="false">
-                            Dropdown button
-                        </button>
-                        <ul class="dropdown-menu dropdown-menu-dark" aria-labelledby="dropdownMenuButton2">
-                            <li><a class="dropdown-item active" href="#">Action</a></li>
-                            <li><a class="dropdown-item" href="#">Another action</a></li>
-                            <li><a class="dropdown-item" href="#">Something else here</a></li>
-                            <li>
-                                <hr class="dropdown-divider">
-                            </li>
-                            <li><a class="dropdown-item" href="#">Separated link</a></li>
-                        </ul>
-                    </div>
-                    <div class="dropdown">
-                        <button class="btn btn-secondary dropdown-toggle" type="button" id="dropdownMenuButton3"
-                            data-bs-toggle="dropdown" aria-expanded="false">
-                            Dropdown button
-                        </button>
-                        <ul class="dropdown-menu dropdown-menu-dark" aria-labelledby="dropdownMenuButton3">
-                            <li><a class="dropdown-item active" href="#">Action</a></li>
-                            <li><a class="dropdown-item" href="#">Another action</a></li>
-                            <li><a class="dropdown-item" href="#">Something else here</a></li>
-                            <li>
-                                <hr class="dropdown-divider">
-                            </li>
-                            <li><a class="dropdown-item" href="#">Separated link</a></li>
-                        </ul>
-                    </div>
-                    <div class="dropdown open" style="position: initial; ">
-                        <button class="btn btn-secondary dropdown-toggle" type="button" id="dropdownMenuButton4"
-                            data-bs-toggle="dropdown" style="margin-bottom: 160px;" aria-expanded="false">
-                            Dropdown button
-                        </button>
-                        <ul class="dropdown-menu dropdown-menu-dark show" aria-labelledby="dropdownMenuButton4"
-                            style="width: 312px; margin-top:-160px">
-                            <li><a class="dropdown-item active" href="#">Action</a></li>
-                            <li><a class="dropdown-item" href="#">Another action</a></li>
-                            <li><a class="dropdown-item" href="#">Something else here</a></li>
-                            <li>
-                                <hr class="dropdown-divider">
-                            </li>
-                            <li><a class="dropdown-item" href="#">Separated link</a></li>
-                        </ul>
-                    </div>
-                    <div class="dropdown">
-                        <button class="btn btn-secondary dropdown-toggle" type="button" id="dropdownMenuButton5"
-                            data-bs-toggle="dropdown" aria-expanded="false">
-                            Dropdown button
-                        </button>
-                        <ul class="dropdown-menu dropdown-menu-dark" aria-labelledby="dropdownMenuButton5">
-                            <li><a class="dropdown-item active" href="#">Action</a></li>
-                            <li><a class="dropdown-item" href="#">Another action</a></li>
-                            <li><a class="dropdown-item" href="#">Something else here</a></li>
-                            <li>
-                                <hr class="dropdown-divider">
-                            </li>
-                            <li><a class="dropdown-item" href="#">Separated link</a></li>
-                        </ul>
-                    </div>
-                    <div class="dropdown">
-                        <button class="btn btn-secondary dropdown-toggle" type="button" id="dropdownMenuButton6"
-                            data-bs-toggle="dropdown" aria-expanded="false">
-                            Dropdown button
-                        </button>
-                        <ul class="dropdown-menu dropdown-menu-dark" aria-labelledby="dropdownMenuButton6">
-                            <li><a class="dropdown-item active" href="#">Action</a></li>
-                            <li><a class="dropdown-item" href="#">Another action</a></li>
-                            <li><a class="dropdown-item" href="#">Something else here</a></li>
-                            <li>
-                                <hr class="dropdown-divider">
-                            </li>
-                            <li><a class="dropdown-item" href="#">Separated link</a></li>
-                        </ul>
-                    </div>
-                    <div class="dropdown">
-                        <button class="btn btn-secondary dropdown-toggle" type="button" id="dropdownMenuButton7"
-                            data-bs-toggle="dropdown" aria-expanded="false">
-                            Dropdown button
-                        </button>
-                        <ul class="dropdown-menu dropdown-menu-dark" aria-labelledby="dropdownMenuButton7">
-                            <li><a class="dropdown-item active" href="#">Action</a></li>
-                            <li><a class="dropdown-item" href="#">Another action</a></li>
-                            <li><a class="dropdown-item" href="#">Something else here</a></li>
-                            <li>
-                                <hr class="dropdown-divider">
-                            </li>
-                            <li><a class="dropdown-item" href="#">Separated link</a></li>
-                        </ul>
-                    </div>
-                    <div class="dropdown">
-                        <button class="btn btn-secondary dropdown-toggle" type="button" id="dropdownMenuButton8"
-                            data-bs-toggle="dropdown" aria-expanded="false">
-                            Dropdown button
-                        </button>
-                        <ul class="dropdown-menu dropdown-menu-dark" aria-labelledby="dropdownMenuButto8">
-                            <li><a class="dropdown-item active" href="#">Action</a></li>
-                            <li><a class="dropdown-item" href="#">Another action</a></li>
-                            <li><a class="dropdown-item" href="#">Something else here</a></li>
-                            <li>
-                                <hr class="dropdown-divider">
-                            </li>
-                            <li><a class="dropdown-item" href="#">Separated link</a></li>
-                        </ul>
-                    </div>
-                    <div class="dropdown">
-                        <button class="btn btn-secondary dropdown-toggle" type="button" id="dropdownMenuButton9"
-                            data-bs-toggle="dropdown" aria-expanded="false">
-                            Dropdown button
-                        </button>
-                        <ul class="dropdown-menu dropdown-menu-dark" aria-labelledby="dropdownMenuButton9">
-                            <li><a class="dropdown-item active" href="#">Action</a></li>
-                            <li><a class="dropdown-item" href="#">Another action</a></li>
-                            <li><a class="dropdown-item" href="#">Something else here</a></li>
-                            <li>
-                                <hr class="dropdown-divider">
-                            </li>
-                            <li><a class="dropdown-item" href="#">Separated link</a></li>
-                        </ul>
+                    <div class="accordion" id="accordionExample">
+                        <div class="accordion-item">
+                            <h2 class="accordion-header" id="headingOne">
+                                <button class="accordion-button btn-light collapsed" type="button"
+                                    data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="true"
+                                    aria-controls="collapseOne">
+                                    Категорії
+                                </button>
+                            </h2>
+                            <div id="collapseOne" class="accordion-collapse collapse" aria-labelledby="headingOne"
+                                data-bs-parent="#accordionExample">
+                                <div class="accordion-body">
+                                    <strong>This is the first item's accordion body.</strong> It is shown by default,
+                                    until the collapse plugin adds the appropriate classes that we use to style each
+                                    element. These classes control the overall appearance, as well as the showing and
+                                    hiding via CSS transitions. You can modify any of this with custom CSS or overriding
+                                    our default variables. It's also worth noting that just about any HTML can go within
+                                    the <code>.accordion-body</code>, though the transition does limit overflow.
+                                </div>
+                            </div>
+                        </div>
+                        <div class="accordion-item">
+                            <h2 class="accordion-header" id="headingTwo">
+                                <button class="accordion-button btn-light" type="button" data-bs-toggle="collapse"
+                                    data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+                                    Ціна
+                                </button>
+                            </h2>
+                            <div id="collapseTwo" class="accordion-collapse collapse show" aria-labelledby="headingTwo"
+                                data-bs-parent="#accordionExample">
+                                <div class="accordion-body">
+                                    <div slider id="slider-distance">
+                                        <div>
+                                            <div inverse-left style="width:70%;"></div>
+                                            <div inverse-right style="width:70%;"></div>
+                                            <div range style="left:0%;right:0%;"></div>
+                                            <span thumb style="left:0%;"></span>
+                                            <span thumb style="left:100%;"></span>
+                                            <div sign style="left:0%;">
+                                                <span id="value">0</span>
+                                            </div>
+                                            <div sign style="left:100%;">
+                                                <span id="value">100</span>
+                                            </div>
+                                        </div>
+                                        <input type="range" value="0" max="100" min="0" step="1" oninput="
+                                        this.value=Math.min(this.value,this.parentNode.childNodes[5].value-1);
+                                        let value = (this.value/parseInt(this.max))*100
+                                        var children = this.parentNode.childNodes[1].childNodes;
+                                        children[1].style.width=value+'%';
+                                        children[5].style.left=value+'%';
+                                        children[7].style.left=value+'%';children[11].style.left=value+'%';
+                                        children[11].childNodes[1].innerHTML=this.value;" />
+
+                                        <input type="range" value="45" max="100" min="0" step="1" oninput="
+                                        this.value=Math.max(this.value,this.parentNode.childNodes[3].value-(-1));
+                                        let value = (this.value/parseInt(this.max))*100
+                                        var children = this.parentNode.childNodes[1].childNodes;
+                                        children[3].style.width=(100-value)+'%';
+                                        children[5].style.right=(100-value)+'%';
+                                        children[9].style.left=value+'%';children[13].style.left=value+'%';
+                                        children[13].childNodes[1].innerHTML=this.value;" />
+                                    </div>
+                                    <div class="d-flex justify-content-between align-items-baseline">
+                                        <div>
+                                            <p class="range-text">Від</p>
+                                            <input class="range" value="980">
+                                        </div>
+                                        <div>
+                                            <p class="range-text">До</p>
+                                            <input class="range" value="20465">
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="accordion-item">
+                            <h2 class="accordion-header" id="headingThree">
+                                <button class="accordion-button btn-light collapsed" type="button"
+                                    data-bs-toggle="collapse" data-bs-target="#collapseThree" aria-expanded="false"
+                                    aria-controls="collapseThree">
+                                    Продавець
+                                </button>
+                            </h2>
+                            <div id="collapseThree" class="accordion-collapse collapse" aria-labelledby="headingThree"
+                                data-bs-parent="#accordionExample">
+                                <div class="accordion-body">
+                                    <strong>This is the third item's accordion body.</strong> It is hidden by default,
+                                    until the collapse plugin adds the appropriate classes that we use to style each
+                                    element. These classes control the overall appearance, as well as the showing and
+                                    hiding via CSS transitions. You can modify any of this with custom CSS or overriding
+                                    our default variables. It's also worth noting that just about any HTML can go within
+                                    the <code>.accordion-body</code>, though the transition does limit overflow.
+                                </div>
+                            </div>
+                        </div>
+                        <div class="accordion-item">
+                            <h2 class="accordion-header" id="headingFour">
+                                <button class="accordion-button btn-light collapsed" type="button"
+                                    data-bs-toggle="collapse" data-bs-target="#collapseFour" aria-expanded="false"
+                                    aria-controls="collapseFour">
+                                    Бренд
+                                </button>
+                            </h2>
+                            <div id="collapseFour" class="accordion-collapse collapse" aria-labelledby="headingFour"
+                                data-bs-parent="#accordionExample">
+                                <div class="accordion-body">
+                                    <strong>This is the second item's accordion body.</strong> It is hidden by default,
+                                    until the collapse plugin adds the appropriate classes that we use to style each
+                                    element. These classes control the overall appearance, as well as the showing and
+                                    hiding via CSS transitions. You can modify any of this with custom CSS or overriding
+                                    our default variables. It's also worth noting that just about any HTML can go within
+                                    the <code>.accordion-body</code>, though the transition does limit overflow.
+                                </div>
+                            </div>
+                        </div>
+                        <div class="accordion-item">
+                            <h2 class="accordion-header" id="headingFive">
+                                <button class="accordion-button btn-light" type="button" data-bs-toggle="collapse"
+                                    data-bs-target="#collapseFive" aria-expanded="false" aria-controls="collapseFive">
+                                    Стать
+                                </button>
+                            </h2>
+                            <div id="collapseFive" class="accordion-collapse collapse show"
+                                aria-labelledby="headingFive" data-bs-parent="#accordionExample">
+                                <div class="accordion-body">
+                                    <div class="form-check">
+                                        <input class="form-check-input" type="checkbox" value="" id="flexCheckChecked"
+                                            checked>
+                                        <div class="d-flex justify-content-between align-items-baseline">
+                                            <label class="form-check-label" for="flexCheckChecked">
+                                                Жінкам
+                                            </label>
+                                            <p class="form-check-label-count">(64)</p>
+                                        </div>
+                                    </div>
+                                    <div class="form-check">
+                                        <input class="form-check-input" type="checkbox" value="" id="flexCheckChecked"
+                                            checked>
+                                        <div class="d-flex justify-content-between align-items-baseline">
+                                            <label class="form-check-label" for="flexCheckChecked">
+                                                Чоловікам
+                                            </label>
+                                            <p class="form-check-label-count">(16)</p>
+                                        </div>
+                                    </div>
+                                    <div class="form-check">
+                                        <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault">
+                                        <div class="d-flex justify-content-between align-items-baseline">
+                                            <label class="form-check-label" for="flexCheckDefault">
+                                                Унісекс
+                                            </label>
+                                            <p class="form-check-label-count">(24)</p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="accordion-item">
+                            <h2 class="accordion-header" id="headingSix">
+                                <button class="accordion-button btn-light collapsed" type="button"
+                                    data-bs-toggle="collapse" data-bs-target="#collapseSix" aria-expanded="false"
+                                    aria-controls="collapseSix">
+                                    Розмір
+                                </button>
+                            </h2>
+                            <div id="collapseSix" class="accordion-collapse collapse" aria-labelledby="headingSix"
+                                data-bs-parent="#accordionExample">
+                                <div class="accordion-body">
+                                    <strong>This is the second item's accordion body.</strong> It is hidden by default,
+                                    until the collapse plugin adds the appropriate classes that we use to style each
+                                    element. These classes control the overall appearance, as well as the showing and
+                                    hiding via CSS transitions. You can modify any of this with custom CSS or overriding
+                                    our default variables. It's also worth noting that just about any HTML can go within
+                                    the <code>.accordion-body</code>, though the transition does limit overflow.
+                                </div>
+                            </div>
+                        </div>
+                        <div class="accordion-item">
+                            <h2 class="accordion-header" id="headingSeven">
+                                <button class="accordion-button btn-light collapsed" type="button"
+                                    data-bs-toggle="collapse" data-bs-target="#collapseSeven" aria-expanded="false"
+                                    aria-controls="collapseSeven">
+                                    Колір
+                                </button>
+                            </h2>
+                            <div id="collapseSeven" class="accordion-collapse collapse" aria-labelledby="headingSeven"
+                                data-bs-parent="#accordionExample">
+                                <div class="accordion-body">
+                                    <strong>This is the second item's accordion body.</strong> It is hidden by default,
+                                    until the collapse plugin adds the appropriate classes that we use to style each
+                                    element. These classes control the overall appearance, as well as the showing and
+                                    hiding via CSS transitions. You can modify any of this with custom CSS or overriding
+                                    our default variables. It's also worth noting that just about any HTML can go within
+                                    the <code>.accordion-body</code>, though the transition does limit overflow.
+                                </div>
+                            </div>
+                        </div>
+                        <div class="accordion-item">
+                            <h2 class="accordion-header" id="headingEigth">
+                                <button class="accordion-button btn-light collapsed" type="button"
+                                    data-bs-toggle="collapse" data-bs-target="#collapseEigth" aria-expanded="false"
+                                    aria-controls="collapseEigth">
+                                    Матеріал
+                                </button>
+                            </h2>
+                            <div id="collapseEigth" class="accordion-collapse collapse" aria-labelledby="headingEigth"
+                                data-bs-parent="#accordionExample">
+                                <div class="accordion-body">
+                                    <strong>This is the second item's accordion body.</strong> It is hidden by default,
+                                    until the collapse plugin adds the appropriate classes that we use to style each
+                                    element. These classes control the overall appearance, as well as the showing and
+                                    hiding via CSS transitions. You can modify any of this with custom CSS or overriding
+                                    our default variables. It's also worth noting that just about any HTML can go within
+                                    the <code>.accordion-body</code>, though the transition does limit overflow.
+                                </div>
+                            </div>
+                        </div>
+                        <div class="accordion-item">
+                            <h2 class="accordion-header" id="headingNine">
+                                <button class="accordion-button btn-light collapsed" type="button"
+                                    data-bs-toggle="collapse" data-bs-target="#collapseNine" aria-expanded="false"
+                                    aria-controls="collapseNine">
+                                    Сезон
+                                </button>
+                            </h2>
+                            <div id="collapseNine" class="accordion-collapse collapse" aria-labelledby="headingNine"
+                                data-bs-parent="#accordionExample">
+                                <div class="accordion-body">
+                                    <strong>This is the second item's accordion body.</strong> It is hidden by default,
+                                    until the collapse plugin adds the appropriate classes that we use to style each
+                                    element. These classes control the overall appearance, as well as the showing and
+                                    hiding via CSS transitions. You can modify any of this with custom CSS or overriding
+                                    our default variables. It's also worth noting that just about any HTML can go within
+                                    the <code>.accordion-body</code>, though the transition does limit overflow.
+                                </div>
+                            </div>
+                        </div>
+                        <div class="accordion-item">
+                            <h2 class="accordion-header" id="headingTen">
+                                <button class="accordion-button btn-light collapsed" type="button"
+                                    data-bs-toggle="collapse" data-bs-target="#collapseTen" aria-expanded="false"
+                                    aria-controls="collapseTen">
+                                    Cтиль
+                                </button>
+                            </h2>
+                            <div id="collapseTen" class="accordion-collapse collapse" aria-labelledby="headingTen"
+                                data-bs-parent="#accordionExample">
+                                <div class="accordion-body">
+                                    <strong>This is the second item's accordion body.</strong> It is hidden by default,
+                                    until the collapse plugin adds the appropriate classes that we use to style each
+                                    element. These classes control the overall appearance, as well as the showing and
+                                    hiding via CSS transitions. You can modify any of this with custom CSS or overriding
+                                    our default variables. It's also worth noting that just about any HTML can go within
+                                    the <code>.accordion-body</code>, though the transition does limit overflow.
+                                </div>
+                            </div>
+                        </div>
                     </div>
                 </aside>
                 <section class="cards">
@@ -344,7 +453,8 @@
                                             <span class="new-price">3 799 </span>
                                         </div>
                                         <div class="d-flex align-items-baseline">
-                                            <span class="author">LoveBrand</span>
+                                            <img class="author" src="img/Avatar1.png" alt="avatar" />
+                                            <span class="author-text">LoveBrand</span>
                                         </div>
                                     </div>
                                 </div>
@@ -382,7 +492,8 @@
                                             <span class="new-price">8 599 </span>
                                         </div>
                                         <div class="d-flex align-items-baseline">
-                                            <span class="author sell_for_men">Sell_For_Men</span>
+                                            <img class="author" src="img/Avatar2.png" alt="avatar" />
+                                            <span class="sell_for_men">Sell_For_Men</span>
                                         </div>
                                     </div>
                                 </div>
@@ -420,7 +531,8 @@
                                             <span class="new-price">2 599 </span>
                                         </div>
                                         <div class="d-flex align-items-baseline">
-                                            <span class="author sell_for_men">Sell_For_Men</span>
+                                            <img class="author" src="img/Avatar2.png" alt="avatar" />
+                                            <span class="sell_for_men">Sell_For_Men</span>
                                         </div>
                                     </div>
                                 </div>
@@ -458,7 +570,8 @@
                                             <span class="new-price">3 499 </span>
                                         </div>
                                         <div class="d-flex align-items-baseline">
-                                            <span class="author brandear">Brandear</span>
+                                            <img class="author" src="img/Avatar.png" alt="avatar" />
+                                            <span class="brandear">Brandear</span>
                                         </div>
                                     </div>
                                 </div>
@@ -497,7 +610,8 @@
                                             <span class="new-price">1 599 </span>
                                         </div>
                                         <div class="d-flex align-items-baseline">
-                                            <span class="author brandear">Brandear</span>
+                                            <img class="author" src="img/Avatar.png" alt="avatar" />
+                                            <span class="brandear">Brandear</span>
                                         </div>
                                     </div>
                                 </div>
@@ -534,8 +648,10 @@
                                         <div>
                                             <span class="new-price">4 199 </span>
                                         </div>
+
                                         <div class="d-flex align-items-baseline">
-                                            <span class="author alex">Alexalex</span>
+                                            <img class="author" src="img/Avatar6.png" alt="avatar" />
+                                            <span class=" alex">Alexalex</span>
                                         </div>
                                     </div>
                                 </div>
@@ -573,7 +689,8 @@
                                             <span class="new-price">8 599 </span>
                                         </div>
                                         <div class="d-flex align-items-baseline">
-                                            <span class="author sellbuy">SellBuy</span>
+                                            <img class="author" src="img/Avatar7.png" alt="avatar" />
+                                            <span class=" sellbuy">SellBuy</span>
                                         </div>
                                     </div>
                                 </div>
@@ -610,8 +727,10 @@
                                         <div>
                                             <span class="new-price">1 599 </span>
                                         </div>
+
                                         <div class="d-flex align-items-baseline">
-                                            <span class="author sofia">Deeva_Sofia</span>
+                                            <img class="author" src="img/Avatar8.png" alt="avatar" />
+                                            <span class="sofia">Deeva_Sofia</span>
                                         </div>
                                     </div>
                                 </div>
@@ -649,7 +768,8 @@
                                             <span class="new-price">4 199 </span>
                                         </div>
                                         <div class="d-flex align-items-baseline">
-                                            <span class="author">LoveBrand</span>
+                                            <img class="author" src="img/Avatar1.png" alt="avatar" />
+                                            <span class="author-text">LoveBrand</span>
                                         </div>
                                     </div>
                                 </div>
@@ -657,24 +777,27 @@
                         </div>
                         <div class="empty"></div>
                         <nav>
-                            <ul class="pagination justify-content-center align-items-baseline">
-                                <li class="page-item disabled">
-                                    <a class="page-link-next">Попередня</a>
-                                </li>
-                                <li class="page-item"><a class="page-link" href="#">1</a></li>
-                                <li class="page-item active"><a class="page-link" href="#">2</a></li>
-                                <li class="page-item"><a class="page-link" href="#">3</a></li>
-                                <li class="page-item"><a class="page-link" href="#">4</a></li>
-                                <li class="page-item"><a class="page-link" href="#">5</a></li>
-                                <li class="page-item"><a class="page-link" href="#">6</a></li>
-                                <li class="page-item"><a class="page-link" href="#">7</a></li>
-                                <li class="page-item"><a class="page-link" href="#">8</a></li>
-                                <li class="page-item">
-                                    <a class="page-link-next">Наступна</a>
-                                </li>
+                            <div
+                                class="container-sm container-md container-lg container-xl container-xxl container-fluid">
+                                <ul class="pagination justify-content-center align-items-baseline">
+                                    <li class="page-item disabled">
+                                        <a class="page-link-next">Попередня</a>
+                                    </li>
+                                    <li class="page-item"><a class="page-link" href="#">1</a></li>
+                                    <li class="page-item active"><a class="page-link" href="#">2</a></li>
+                                    <li class="page-item"><a class="page-link" href="#">3</a></li>
+                                    <li class="page-item"><a class="page-link" href="#">4</a></li>
+                                    <li class="page-item"><a class="page-link" href="#">5</a></li>
+                                    <li class="page-item"><a class="page-link" href="#">6</a></li>
+                                    <li class="page-item"><a class="page-link" href="#">7</a></li>
+                                    <li class="page-item"><a class="page-link" href="#">8</a></li>
+                                    <li class="page-item">
+                                        <a class="page-link-next">Наступна</a>
+                                    </li>
 
-                                </li>
-                            </ul>
+                                    </li>
+                                </ul>
+                            </div>
                         </nav>
                     </div>
                 </section>
@@ -684,88 +807,88 @@
     </main>
     <footer class="bg-light text-center text-lg-start">
         <div class="footer-top container-sm container-md container-lg container-xl container-xxl container-fluid p-5">
-            <div class="row">
-                <div class="col-lg-3 col-md-6 mb-4 mb-md-0">
-                    <ul class="list-unstyled mb-0">
-                        <li>
+            <div class="row ">
+                <div class="col-lg-3 col-md-6 mb-4 mb-md-0 mb-2">
+                    <div class="list-unstyled mb-0">
+                        <div class="mb-3">
                             <a href="#!" class="footer-item">Довідка для покупців</a>
-                        </li>
-                        <li>
+                        </div>
+                        <div class="mb-3">
                             <a href="#!" class="footer-item">Отримати підтримку</a>
-                        </li>
-                        <li>
+                        </div>
+                        <div class="mb-3">
                             <a href="#!" class="footer-item">Як купувати</a>
-                        </li>
-                        <li>
+                        </div>
+                        <div class="mb-3">
                             <a href="#!" class="footer-item">Як залишити корисний відгук</a>
-                        </li>
-                        <li>
+                        </div>
+                        <div class="mb-3">
                             <a href="#!" class="footer-item">Програма Захисту Покупців</a>
-                        </li>
-                        <li>
+                        </div>
+                        <div class="mb-3">
                             <a href="#!" class="footer-item">Рекомендації з безпечних покупок</a>
-                        </li>
-                    </ul>
+                        </div>
+                    </div>
                 </div>
                 <div class="col-lg-3 col-md-6 mb-4 mb-md-0">
-                    <ul class="list-unstyled">
-                        <li>
+                    <div class="list-unstyled">
+                        <div class="mb-3">
                             <a href="#!" class="footer-item">Довідка для продавців</a>
-                        </li>
-                        <li>
+                        </div>
+                        <div class="mb-3">
                             <a href="#!" class="footer-item">Як почати продавати</a>
-                        </li>
-                        <li>
+                        </div>
+                        <div class="mb-3">
                             <a href="#!" class="footer-item">Тарифи</a>
-                        </li>
-                        <li>
+                        </div>
+                        <div class="mb-3">
                             <a href="#!" class="footer-item">Угода користувача</a>
-                        </li>
-                        <li>
+                        </div>
+                        <div class="mb-3">
                             <a href="#!" class="footer-item">Політика конфіденційності</a>
-                        </li>
-                        <li>
+                        </div>
+                        <div class="mb-3">
                             <a href="#!" class="footer-item">Правила користування порталом</a>
-                        </li>
-                        <li>
+                        </div>
+                        <div class="mb-3">
                             <a href="#!" class="footer-item">Бонусна програма</a>
-                        </li>
-                    </ul>
+                        </div>
+                    </div>
                 </div>
                 <div class="col-lg-3 col-md-6 mb-4 mb-md-0">
-                    <ul class="list-unstyled mb-0">
-                        <li>
+                    <div class="list-unstyled mb-0">
+                        <div class="mb-3">
                             <a href="#!" class="footer-item">Про нас</a>
-                        </li>
-                        <li>
+                        </div>
+                        <div class="mb-3">
                             <a href="#!" class="footer-item">Довідка та FAQ</a>
-                        </li>
-                        <li>
+                        </div>
+                        <div class="mb-3">
                             <a href="#!" class="footer-item">Захист легальності контенту</a>
-                        </li>
-                        <li>
+                        </div>
+                        <div class="mb-3">
                             <a href="#!" class="footer-item">Адміністрація</a>
-                        </li>
-                        <li>
+                        </div>
+                        <div class="mb-3">
                             <a href="#!" class="footer-item">Вакансії</a>
-                        </li>
-                    </ul>
+                        </div>
+                    </div>
                 </div>
                 <div class="col-lg-3 col-md-6 mb-4 mb-md-0">
-                    <ul class="list-unstyled">
-                        <li>
+                    <div class="list-unstyled">
+                        <div class="mb-3">
                             <a href="#!" class="footer-item">Мобільний додаток</a>
-                        </li>
-                        <li>
+                        </div>
+                        <div class="mb-3">
                             <a href="#!" class="bg-white"><img src="img/google-play.png" alt="google-play" /></a>
-                        </li>
-                    </ul>
+                        </div>
+                    </div>
                 </div>
             </div>
         </div>
         <div class="text-left p-4">
             <div class="container-sm container-md container-lg container-xl container-xxl container-fluid">
-                <p> © 2022 Monvalise</p>
+                <p class="copy"> © 2022 Monvalise</p>
             </div>
         </div>
     </footer>
