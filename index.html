@@ -17,7 +17,7 @@
 <body>
     <section class="top-section">
         <div class="container-fluid  ">
-            <div class="top d-flex align-items-flex-start justify-content-center">
+            <div class="top d-flex align-items-right justify-content-center">
                 <img class="top-icon" src="img/like.png" alt="like" />
                 <img class="top-icon" src="img/icon-dress.png" alt="dress" />
                 <p class="top-header">Брендовий верхній одяг від 899 грн</p>
@@ -27,46 +27,41 @@
     <section class="middle-section">
         <div class="navbar navbar-expand-lg justify-content-between align-items-baseline">
             <div
-                class="nav container-sm container-md container-lg container-xl container-xxl container-fluid align-items-baseline">
+                class="nav container-xs container-sm container-md container-lg container-xl container-xxl container-fluid align-items-baseline">
                 <a class="navbar-brand col-2 " href="#"><img class="logo" src="img/logo.svg" alt="logo" /></a>
                 <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
                     data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
                     aria-expanded="false" aria-label="Toggle navigation">
                     <span class="navbar-toggler-icon"></span>
                 </button>
-                <div class="collapse navbar-collapse justify-content-between align-items-baseline"
+                <div class="collapse navbar-collapse justify-content-between justify-content-xl-start justify-content-lg-start align-items-baseline"
                     id="navbarSupportedContent">
-                    <form class="d-flex col-9 col-lg-7 search" role="search">
+                    <form class="d-flex  col-xxl-8 col-xl-7 col-lg-5 search" role="search">
                         <div class="input-group">
                             <span class="input-group-text"><i class="fa-solid fa-search mx-2"></i></span>
-                            <input class="form-control me-2" type="search" placeholder=" Знайти речі або бренди"
+                            <input class="form-control  me-2" type="search" placeholder=" Знайти речі або бренди"
                                 aria-label="Search">
                         </div>
                         <button class="btn btn-dark" type="submit">Додати товар</button>
                     </form>
-                    <ul class="navbar-nav col-5 me-0  mb-lg-0 justify-content-start align-items-baseline">
-                        <li class="nav-item dropdown">
-                            <a class="nav-link dropdown-toggle" href="#" role="button" aria-haspopup='true'
-                                data-bs-toggle="dropdown" aria-expanded="false">
-                                Укр
-                            </a>
-                            <ul class="dropdown-menu">
-                                <li><a class="dropdown-item" href="#">Англ.</a></li>
-                                <li><a class="dropdown-item" href="#">Нім.</a></li>
-                                <li>
-                                    <hr class="dropdown-divider">
-                                </li>
-                                <li><a class="dropdown-item" href="#">Франц.</a></li>
-                            </ul>
-                        </li>
-                        <li class="nav-item heart">
+                    <select class="form-select d-flex col-1 justify-content-start align-items-baseline"
+                        aria-label="Default select example">
+                        <option selected> Укр</option>
+                        <option value="1">Франц.</option>
+                        <option value="2">Англ.</option>
+                        <option value="3">Нім.</option>
+                    </select>
+                    <div class="navb">
+                        <li class="nav-item  heart">
                             <a class="nav-link " aria-current="page" href="#"><svg xmlns="http://www.w3.org/2000/svg"
                                     width="16" height="16" fill="currentColor" class="bi bi-heart" viewBox="0 0 16 16">
                                     <path
                                         d="m8 2.748-.717-.737C5.6.281 2.514.878 1.4 3.053c-.523 1.023-.641 2.5.314 4.385.92 1.815 2.834 3.989 6.286 6.357 3.452-2.368 5.365-4.542 6.286-6.357.955-1.886.838-3.362.314-4.385C13.486.878 10.4.28 8.717 2.01L8 2.748zM8 15C-7.333 4.868 3.279-3.04 7.824 1.143c.06.055.119.112.176.171a3.12 3.12 0 0 1 .176-.17C12.72-3.042 23.333 4.867 8 15z" />
                                 </svg></a>
                         </li>
-                        <li class="nav-item comment ">
+                    </div>
+                    <div class="navb">
+                        <li class="nav-item  comment ">
                             <a class="nav-link " href="#"><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16"
                                     fill="currentColor" class="bi bi-chat-right-text" viewBox="0 0 16 16">
                                     <path
@@ -75,35 +70,39 @@
                                         d="M3 3.5a.5.5 0 0 1 .5-.5h9a.5.5 0 0 1 0 1h-9a.5.5 0 0 1-.5-.5zM3 6a.5.5 0 0 1 .5-.5h9a.5.5 0 0 1 0 1h-9A.5.5 0 0 1 3 6zm0 2.5a.5.5 0 0 1 .5-.5h5a.5.5 0 0 1 0 1h-5a.5.5 0 0 1-.5-.5z" />
                                 </svg></a>
                         </li>
-                        <li class="nav-item cart">
+                    </div>
+                    <div class="navb">
+                        <li class="nav-item  cart">
                             <a class="nav-link "><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16"
                                     fill="currentColor" class="bi bi-cart2" viewBox="0 0 16 16">
                                     <path
                                         d="M0 2.5A.5.5 0 0 1 .5 2H2a.5.5 0 0 1 .485.379L2.89 4H14.5a.5.5 0 0 1 .485.621l-1.5 6A.5.5 0 0 1 13 11H4a.5.5 0 0 1-.485-.379L1.61 3H.5a.5.5 0 0 1-.5-.5zM3.14 5l1.25 5h8.22l1.25-5H3.14zM5 13a1 1 0 1 0 0 2 1 1 0 0 0 0-2zm-2 1a2 2 0 1 1 4 0 2 2 0 0 1-4 0zm9-1a1 1 0 1 0 0 2 1 1 0 0 0 0-2zm-2 1a2 2 0 1 1 4 0 2 2 0 0 1-4 0z" />
                                 </svg></a>
                         </li>
-                        <li class="nav-item dropdown">
-                            <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"
-                                aria-expanded="false">
-                                <img class="avatar" src="img/avatar.png" alt="Avatar" />
-                            </a>
-                            <ul class="dropdown-menu">
-                                <li><a class="dropdown-item" href="#"><img src="img/avatar.png" alt="Avatar" /></a></li>
-                                <li><a class="dropdown-item" href="#"><img src="img/avatar.png" alt="Avatar" /></a></li>
-                                <li>
-                                    <hr class="dropdown-divider">
-                                </li>
-                                <li><a class="dropdown-item" href="#"><img src="img/avatar.png" alt="Avatar" /></a></li>
-                            </ul>
-                        </li>
-                    </ul>
+                    </div>
+                    <li class="nav-item form-select dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"
+                            aria-expanded="false">
+                            <img class="avatar" src="img/avatar.png" alt="Avatar" />
+                        </a>
+                        <ul class="dropdown-menu">
+                            <li><a class="dropdown-item" href="#"><img src="img/avatar.png" alt="Avatar" /></a></li>
+                            <li><a class="dropdown-item" href="#"><img src="img/avatar.png" alt="Avatar" /></a></li>
+                            <li>
+                                <hr class="dropdown-divider">
+                            </li>
+                            <li><a class="dropdown-item" href="#"><img src="img/avatar.png" alt="Avatar" /></a></li>
+                        </ul>
+                    </li>
+
                 </div>
             </div>
         </div>
     </section>
     <header>
         <nav class="navbar navbar-expand-lg">
-            <div class="container-fluid container-sm container-md container-lg container-xl container-xxl ">
+            <div
+                class="container-fluid container-xs container-sm container-md container-lg container-xl container-xxl ">
                 <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
                     data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false"
                     aria-label="Toggle navigation">
@@ -112,7 +111,7 @@
                 <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
                     <div class="navbar-nav nav-pills">
                         <a class="nav-link " aria-current="page" href="#">Головна</a>
-                        <a class="nav-link active" href="#">Каталог</a>
+                        <a class="nav-link catalog" href="#">Каталог</a>
                         <a class="nav-link" href="#">Жінкам</a>
                         <a class="nav-link">Чоловікам</a>
                         <a class="nav-link" href="#">Дитячі речі</a>
@@ -127,7 +126,7 @@
         </nav>
     </header>
     <main>
-        <div class="container-fluid container-sm container-md container-lg container-xl container-xxl ">
+        <div class="container-fluid container-xs container-sm container-md container-lg container-xl container-xxl ">
             <div class="row">
                 <p><span class="breadcrumbs-main">Головна</span><span class="breadcrumbs-category"> / Каталог
                         одягу</span></p>
@@ -136,9 +135,9 @@
             <div>
                 <p class="main-name">Каталог одягу</p>
             </div>
-            <div class="d-flex justify-content-between ">
+            <div class="d-flex justify-content-between flex-wrap justify-content-xs-center ">
                 <p class="filters">Фільтри</p>
-                <div class="d-flex align-items-baseline">
+                <div class="d-flex align-items-baseline flex-wrap">
                     <div>
                         <p class="sort">Сортувати за:</p>
                     </div>
@@ -156,8 +155,8 @@
                 </div>
             </div>
         </div>
-        <div class="container-fluid container-sm container-md container-lg container-xl container-xxl ">
-            <section class="d-flex">
+        <div class="container-fluid container-xs container-sm container-md container-lg container-xl container-xxl ">
+            <section class="d-flex main">
                 <aside>
                     <div class="accordion" id="accordionExample">
                         <div class="accordion-item">
@@ -778,8 +777,8 @@
                         <div class="empty"></div>
                         <nav>
                             <div
-                                class="container-sm container-md container-lg container-xl container-xxl container-fluid">
-                                <ul class="pagination justify-content-center align-items-baseline">
+                                class=" container-xs container-sm container-md container-lg container-xl container-xxl container-fluid">
+                                <ul class="pagination justify-content-center align-items-baseline ">
                                     <li class="page-item disabled">
                                         <a class="page-link-next">Попередня</a>
                                     </li>
@@ -806,7 +805,8 @@
         </div>
     </main>
     <footer class="bg-light text-center text-lg-start">
-        <div class="footer-top container-sm container-md container-lg container-xl container-xxl container-fluid p-5">
+        <div
+            class="footer-top container-xs container-sm container-md container-lg container-xl container-xxl container-fluid p-5">
             <div class="row ">
                 <div class="col-lg-3 col-md-6 mb-4 mb-md-0 mb-2">
                     <div class="list-unstyled mb-0">
@@ -887,14 +887,17 @@
             </div>
         </div>
         <div class="text-left p-4">
-            <div class="container-sm container-md container-lg container-xl container-xxl container-fluid">
+            <div class="container-xs container-sm container-md container-lg container-xl container-xxl container-fluid">
                 <p class="copy"> © 2022 Monvalise</p>
             </div>
         </div>
     </footer>
+    <script src="https://code.jquery.com/jquery-3.6.0.js"
+        integrity="sha256-H+K7U5CnXl1h5ywQfKtSj8PCmoN9aaq30gDh27Xc0jk=" crossorigin="anonymous"></script>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js"
         integrity="sha384-OERcA2EqjJCMA+/3y+gxIOqMEjwtxJY7qPCqsdltbNJuaOe923+mo//f6V8Qbsw3"
         crossorigin="anonymous"></script>
+
     <script src="js/index.js"></script>
 </body>
 
