@@ -530,6 +530,10 @@ a.nav-link.dropdown-toggle::after {
 .form-check:last-child {
   margin-bottom: 20px;
 }
+.default {
+  width: 63%;
+}
+
 @media (max-width: 576px) {
   .top-header {
     font-size: 12px;
@@ -552,6 +556,9 @@ a.nav-link.dropdown-toggle::after {
     padding: 7px 13px;
     border: 1px solid #5c5f60;
     border-radius: 50px;
+  }
+  .btn-default {
+    margin-bottom: 30px;
   }
 }
 @media (max-width: 767px) {
@@ -588,6 +595,9 @@ a.nav-link.dropdown-toggle::after {
   }
   a.nav-link.dropdown-toggle::after {
     display: none;
+  }
+  .default {
+    width: 63%;
   }
 }
 @media (min-width: 768px) and (max-width: 992px) {
@@ -633,6 +643,9 @@ a.nav-link.dropdown-toggle::after {
   a.nav-link.dropdown-toggle::after {
     display: none;
   }
+  .default {
+    width: 63%;
+  }
 }
 @media (min-width: 992px) and (max-width: 1200px) {
   /* .btn-dark {
@@ -668,6 +681,9 @@ a.nav-link.dropdown-toggle::after {
   }
   #navbarSupportedContent {
     width: 95%;
+  }
+  .default {
+    width: 63%;
   }
 }
 
