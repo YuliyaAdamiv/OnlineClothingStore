@@ -380,7 +380,6 @@ a {
 [slider] > input[type='range'] {
   position: absolute;
   pointer-events: none;
-  -webkit-appearance: none;
   z-index: 3;
   height: 14px;
   top: -2px;
@@ -403,7 +402,6 @@ div[slider] > input[type='range']::-webkit-slider-thumb {
   border-radius: 0px;
   border: 0 none;
   background: #5c5f60;
-  -webkit-appearance: none;
 }
 
 div[slider] > input[type='range']::-ms-fill-lower {
