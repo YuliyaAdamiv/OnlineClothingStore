@@ -524,6 +524,12 @@ a.nav-link.dropdown-toggle::after {
 #navbarSupportedContent {
   width: 87%;
 }
+.form-check {
+  margin-top: 20px;
+}
+.form-check:last-child {
+  margin-bottom: 20px;
+}
 @media (max-width: 576px) {
   .top-header {
     font-size: 12px;
