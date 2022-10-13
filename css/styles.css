@@ -175,7 +175,7 @@ a {
     width: 85vw;
   }
   .btn-dark {
-    margin-top: 20px;
+    margin: 20px 0;
     width: 84vw;
   }
   input::placeholder {
