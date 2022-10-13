@@ -38,6 +38,9 @@
   padding: 10px 20px;
   margin-left: 26px;
 }
+.nav {
+  margin-bottom: 20px;
+}
 .navbar {
   padding: 19px 0px 0px 0px;
 }
@@ -78,7 +81,9 @@ nav.navbar {
 }
 .nav-pills {
   position: relative;
-  padding: 10px 0;
+}
+.nav-pills a.nav-link {
+  margin: 10px 0;
 }
 .nav-pills::before {
   position: absolute;
