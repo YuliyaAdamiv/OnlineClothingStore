@@ -221,6 +221,9 @@ a {
     text-decoration: underline;
     text-underline-offset: 0;
   }
+  .input-group {
+    width: 100vw;
+  }
   .nav-pills::before {
     width: 108%;
     content: '';
@@ -258,6 +261,9 @@ a {
   }
   .empty {
     width: 25vw;
+  }
+  .input-group {
+    width: 90vw;
   }
   .form-select {
     width: 15%;
