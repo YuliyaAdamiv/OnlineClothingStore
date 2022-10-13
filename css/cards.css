@@ -1,0 +1,119 @@
+.card-img {
+  width: 77%;
+  height: 77%;
+  margin: 21px 28px 0px;
+  cursor: pointer;
+}
+.card {
+  position: relative;
+  padding: 24px;
+  --bs-card-spacer-y: 0;
+}
+.card-icon-heart {
+  width: 20px;
+  height: 16px;
+  position: absolute;
+  top: 20px;
+  right: 24px;
+}
+.card-body {
+  padding: 0;
+}
+.top-icon {
+  width: 24px;
+  height: 24px;
+}
+.top-icon-s {
+  width: 38px;
+  height: 23px;
+}
+.brand {
+  font-weight: 500;
+  font-size: 10px;
+  line-height: 150%;
+  color: #5c5f60;
+  padding: 10px 0 4px;
+}
+.card-title {
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 150%;
+  color: #2d3132;
+}
+.name-item {
+  margin-bottom: 24px;
+}
+.old-price {
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 150%;
+  text-decoration-line: line-through;
+  color: #747778;
+}
+.new-price {
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 150%;
+}
+.location {
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 150%;
+  color: #2d3132;
+}
+.author {
+  width: 15px;
+  height: 15px;
+  margin-right: 8px;
+}
+.author-text,
+.sell_for_men,
+.brandear,
+.alex,
+.sellbuy,
+.sofia {
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 150%;
+}
+
+.organic {
+  width: 56px;
+  height: 23px;
+  position: absolute;
+}
+
+.page-link {
+  border-radius: 50%;
+  color: #5c5f60;
+  font-weight: 500;
+  font-size: 10px;
+  line-height: 150%;
+}
+.page-link-next {
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 150%;
+  color: #5c5f60;
+  text-decoration: none;
+  padding: 7px 13px;
+  border: 1px solid #5c5f60;
+  border-radius: 50px;
+}
+.active {
+  border-bottom: none;
+  padding: 0;
+  border: 2px solid #2d3132;
+  border-radius: 100%;
+}
+.active > .page-link {
+  background: #fff;
+  color: #5c5f60;
+  border-color: #fff;
+}
+.page-item {
+  margin-right: 8px;
+}
+.pagination {
+  margin: 41px 0 108px;
+}
