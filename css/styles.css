@@ -85,6 +85,7 @@ a {
   height: 44px;
   cursor: pointer;
 }
+
 @media (max-width: 576px) {
   .container {
     padding: 0 30px;
@@ -221,6 +222,9 @@ a {
   .page-item.active {
     display: none;
   }
+  .nav-item-container {
+    margin: 0;
+  }
 }
 @media (min-width: 577px) and (max-width: 767px) {
   .openbtn {
@@ -277,7 +281,7 @@ a {
     font-size: 8px;
   }
   .form-select {
-    width: 22%;
+    width: 14%;
     border: none;
     margin: 0 auto;
   }
@@ -317,6 +321,9 @@ a {
   }
   #navbarSupportedContent {
     width: 87%;
+  }
+  .nav-item-container {
+    margin: 0 7%;
   }
 }
 @media (min-width: 768px) and (max-width: 991px) {
@@ -378,7 +385,7 @@ a {
     width: 90vw;
   }
   .form-select {
-    width: 15%;
+    width: 11%;
     border: none;
     margin: 0 auto;
   }
@@ -418,6 +425,9 @@ a {
   }
   #navbarSupportedContent {
     width: 87%;
+  }
+  .nav-item-container {
+    margin: 0 7%;
   }
 }
 @media (min-width: 992px) and (max-width: 1200px) {
@@ -474,7 +484,7 @@ a {
   }
 }
 
-@media (min-width: 1201px) and (max-width: 1401px) {
+@media (min-width: 1201px) and (max-width: 1399px) {
   .btn-dark {
     padding: 5px 8px;
     margin-left: 6px;
@@ -496,7 +506,7 @@ a {
     display: none !important;
   }
 }
-@media (min-width: 1402px) and (max-width: 1920px) {
+@media (min-width: 1400px) and (max-width: 1920px) {
   .navbar-expand-lg .navbar-collapse {
     display: none;
   }
