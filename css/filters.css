@@ -116,9 +116,7 @@ aside {
 a.nav-link.dropdown-toggle::after {
   display: none;
 }
-#navbarSupportedContent {
-  width: 87%;
-}
+
 .form-check {
   margin-top: 20px;
 }

@@ -83,10 +83,33 @@ a {
 .google-play {
   width: 145.89px;
   height: 44px;
+  cursor: pointer;
 }
 @media (max-width: 576px) {
   .container {
     padding: 0 30px;
+  }
+  .problem {
+    display: flex;
+    flex-direction: row;
+    height: 10%;
+    width: 100%;
+    position: absolute;
+    z-index: 1;
+    bottom: 35px;
+    left: 0;
+  }
+  .enclose {
+    position: fixed;
+    bottom: 0px;
+    width: 100%;
+    background: white;
+    height: 44px;
+    left: 1px;
+    z-index: 1000;
+  }
+  .brand {
+    display: none;
   }
   .openbtn {
     display: block;
@@ -124,7 +147,6 @@ a {
   }
   .pagination {
     margin: 36px 20% 52px;
-    flex-wrap: wrap;
   }
   .page-link {
     border-radius: 60%;
@@ -133,9 +155,11 @@ a {
     line-height: 150%;
   }
   .select {
-    width: 22%;
+    width: 20%;
     border: none;
     margin: 0 auto;
+    height: 25px;
+    margin-left: 30px;
   }
   .btn-dark {
     font-weight: 400;
@@ -181,10 +205,48 @@ a {
   input::placeholder {
     font-size: 12px;
   }
+
+  #nav-destop {
+    display: none;
+  }
+  .navbar-collapse {
+    flex-basis: 100%;
+    flex-grow: 1;
+    align-items: center;
+  }
+  #navbarSupportedContent {
+    width: 87%;
+  }
+  .page-link,
+  .page-item.active {
+    display: none;
+  }
 }
 @media (min-width: 577px) and (max-width: 767px) {
   .openbtn {
     display: block;
+  }
+  .problem {
+    display: flex;
+    flex-direction: row;
+    height: 10%;
+    width: 100%;
+    position: absolute;
+    z-index: 1;
+    bottom: 35px;
+    left: 0;
+  }
+  .enclose {
+    position: fixed;
+    bottom: 0px;
+    width: 100%;
+    background: white;
+    height: 44px;
+    left: 1px;
+    z-index: 1000;
+  }
+  .brand {
+    display: none;
   }
   #aside-destop {
     display: none;
@@ -218,6 +280,7 @@ a {
     width: 22%;
     border: none;
     margin: 0 auto;
+    height: 40px;
   }
   a.nav-link.dropdown-toggle::after {
     display: none;
@@ -242,10 +305,43 @@ a {
     width: 115%;
     content: '';
   }
+  #nav-destop {
+    display: none;
+  }
+  .navbar-collapse {
+    flex-basis: 100%;
+    flex-grow: 1;
+    align-items: center;
+  }
+  #navbarSupportedContent {
+    width: 87%;
+  }
 }
 @media (min-width: 768px) and (max-width: 991px) {
   .openbtn {
     display: block;
+  }
+  .problem {
+    display: flex;
+    flex-direction: row;
+    height: 10%;
+    width: 100%;
+    position: absolute;
+    z-index: 1;
+    bottom: 35px;
+    left: 0;
+  }
+  .enclose {
+    position: fixed;
+    bottom: 0px;
+    width: 100%;
+    background: white;
+    height: 44px;
+    left: 1px;
+    z-index: 1000;
+  }
+  .brand {
+    display: none;
   }
   #aside-destop {
     display: none;
@@ -284,6 +380,9 @@ a {
     border: none;
     margin: 0 auto;
   }
+  .select {
+    height: 38px;
+  }
   a.nav-link.dropdown-toggle::after {
     display: none;
   }
@@ -306,6 +405,17 @@ a {
   .nav-pills::before {
     width: 115%;
     content: '';
+  }
+  #nav-destop {
+    display: none;
+  }
+  .navbar-collapse {
+    flex-basis: 100%;
+    flex-grow: 1;
+    align-items: center;
+  }
+  #navbarSupportedContent {
+    width: 87%;
   }
 }
 @media (min-width: 992px) and (max-width: 1200px) {
@@ -335,8 +445,8 @@ a {
   .empty {
     width: 17vw;
   }
-  #navbarSupportedContent {
-    width: 95%;
+  .navbar-expand-lg .navbar-collapse {
+    display: none;
   }
   .default {
     width: 63%;
@@ -357,6 +467,9 @@ a {
     width: 113%;
     content: '';
   }
+  #navbarSupportedContent {
+    display: none !important;
+  }
 }
 
 @media (min-width: 1201px) and (max-width: 1401px) {
@@ -370,17 +483,22 @@ a {
   .navbar-brand {
     width: 12%;
   }
-  #navbarSupportedContent {
-    width: 100%;
-  }
   .nav-pills::before {
     width: 136%;
     content: '';
   }
+  .navbar-expand-lg .navbar-collapse {
+    display: none;
+  }
+  #navbarSupportedContent {
+    display: none !important;
+  }
 }
-
-@media screen and (max-height: 450px) {
-  .sidebar {
-    padding-top: 15px;
+@media (min-width: 1402px) and (max-width: 1920px) {
+  .navbar-expand-lg .navbar-collapse {
+    display: none;
+  }
+  #navbarSupportedContent {
+    display: none !important;
   }
 }
