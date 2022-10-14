@@ -15,6 +15,7 @@
   position: absolute;
   top: 20px;
   right: 24px;
+  cursor: pointer;
 }
 .card-body {
   padding: 0;
@@ -26,6 +27,7 @@
 .top-icon-s {
   width: 38px;
   height: 23px;
+  cursor: pointer;
 }
 .brand {
   font-weight: 500;
@@ -80,6 +82,7 @@
   width: 56px;
   height: 23px;
   position: absolute;
+  cursor: pointer;
 }
 
 .page-link {
@@ -88,6 +91,7 @@
   font-weight: 500;
   font-size: 10px;
   line-height: 150%;
+  cursor: pointer;
 }
 .page-link-next {
   font-weight: 400;
@@ -98,6 +102,7 @@
   padding: 7px 13px;
   border: 1px solid #5c5f60;
   border-radius: 50px;
+  cursor: pointer;
 }
 .active {
   border-bottom: none;
