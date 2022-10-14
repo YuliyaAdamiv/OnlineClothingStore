@@ -225,6 +225,18 @@ a {
   .nav-item-container {
     margin: 0;
   }
+  .openbtn {
+    padding: 12px 15px;
+    font-size: 15px;
+  }
+  .filter {
+    display: flex;
+    flex-direction: column;
+  }
+  .default {
+    padding: 15px 5px;
+    width: 100%;
+  }
 }
 @media (min-width: 577px) and (max-width: 767px) {
   .openbtn {
@@ -325,6 +337,10 @@ a {
   .nav-item-container {
     margin: 0 7%;
   }
+  .openbtn {
+    padding: 12px 15px;
+    font-size: 15px;
+  }
 }
 @media (min-width: 768px) and (max-width: 991px) {
   .openbtn {
@@ -362,6 +378,10 @@ a {
     width: 45%;
     padding: 6px 15px;
     margin-left: 0px;
+  }
+  .openbtn {
+    padding: 12px 15px;
+    font-size: 20px;
   }
   .main {
     display: flex;
