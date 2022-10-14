@@ -109,6 +109,8 @@ aside {
   text-underline-offset: 1em;
 }
 .form-select {
+  font-size: 12px;
+  line-height: 150%;
   width: 6%;
   border: none;
   cursor: pointer;

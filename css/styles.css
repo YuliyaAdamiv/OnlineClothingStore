@@ -99,6 +99,7 @@ a {
     z-index: 1;
     bottom: 35px;
     left: 0;
+    align-items: baseline;
   }
   .enclose {
     position: fixed;
@@ -156,10 +157,10 @@ a {
     line-height: 150%;
   }
   .select {
-    width: 20%;
+    width: 16%;
     border: none;
     margin: 0 auto;
-    height: 25px;
+    height: 17px;
     margin-left: 30px;
   }
   .btn-dark {
@@ -298,7 +299,7 @@ a {
     margin: 0 auto;
   }
   .select {
-    height: 40px;
+    height: 32px;
   }
   a.nav-link.dropdown-toggle::after {
     display: none;
@@ -410,7 +411,7 @@ a {
     margin: 0 auto;
   }
   .select {
-    height: 38px;
+    height: 28px;
   }
   a.nav-link.dropdown-toggle::after {
     display: none;
