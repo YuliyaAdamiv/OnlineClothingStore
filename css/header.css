@@ -84,7 +84,7 @@ nav.navbar {
   position: relative;
 }
 .nav-pills a.nav-link {
-  margin: 10px 0;
+  margin: 10px;
 }
 .nav-pills::before {
   position: absolute;

@@ -516,6 +516,9 @@ a {
   #cards {
     width: 78%;
   }
+  .nav-pills a.nav-link {
+    margin: 10px 5px;
+  }
   .nav-pills::before {
     width: 113%;
     content: '';
