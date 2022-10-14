@@ -519,6 +519,9 @@ a {
     width: 136%;
     content: '';
   }
+  .form-select {
+    width: 7%;
+  }
   .navbar-expand-lg .navbar-collapse {
     display: none;
   }
