@@ -30,7 +30,7 @@ body {
   line-height: 150%;
   color: #747778;
 }
-.row p {
+.breadcrumb-item {
   margin: 35px 0;
 }
 p {
