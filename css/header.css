@@ -31,6 +31,7 @@
   border-radius: 4px;
 }
 .btn-dark {
+  font-family: 'Stolzl', sans-serif;
   font-weight: 400;
   font-size: 12px;
   line-height: 150%;
@@ -94,8 +95,8 @@ nav.navbar {
   border-bottom: 1px solid #e0e3e3;
 }
 .nav-link {
-  font-family: 'Stolzl';
-  font-weight: 500;
+  font-family: 'Stolzl', sans-serif;
+  font-weight: 600;
   font-size: 13px;
   line-height: 150%;
   text-align: center;
@@ -109,4 +110,10 @@ nav.navbar {
 }
 header {
   border-bottom: 1px solid #e0e3e3;
+}
+input::placeholder {
+  font-family: 'Stolzl', sans-serif;
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 150%;
 }
